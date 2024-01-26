@@ -1506,7 +1506,7 @@ footer .rights .social-media i{
     .responsivesmooth{
         opacity: 0;
         scale: 0;
-        animation: responsivesmooth 1s ease-in-out forwards 1s;
+        animation: responsivesmooth 1s ease-in-out forwards;
     }
 
     @keyframes responsivesmooth{
@@ -1525,7 +1525,7 @@ footer .rights .social-media i{
     .quality.responsivescroll:nth-child(2) {
         opacity: 0;
         scale: 0;
-        animation: scale 1s linear forwards 2s;
+        animation: scale 1s linear forwards 4s;
     }
     
     .quality.responsivescroll:last-child {
