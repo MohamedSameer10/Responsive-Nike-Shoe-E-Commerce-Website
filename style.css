@@ -1453,6 +1453,10 @@ footer .rights .social-media i{
         order: 3;
     }
 
+    .responsivesmooth{
+        animation: smooth 1s ease-in-out forwards 1s;
+    }
+
 }
 
 
