@@ -1504,15 +1504,16 @@ footer .rights .social-media i{
     }
 
     .responsivesmooth{
+        overflow: hidden;
         opacity: 0;
-        scale: 0;
-        animation: responsivesmooth 2s ease-in-out forwards;
+        transform: translateX(-30%);
+        animation: responsivesmooth 3s ease-in-out forwards;
     }
 
     @keyframes responsivesmooth{
         to{
-            scale: 1;
             opacity: 1;
+            transform: translateX(0%);
         }
     }
 
