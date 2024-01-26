@@ -1503,6 +1503,15 @@ footer .rights .social-media i{
         font-size: 1rem;
     }
 
+    
+    .quality.scroll:first-child,
+    .quality.scroll:last-child,
+    .quality.scroll:nth-child(2),
+    .smooth{
+        animation: none;
+    }
+
+
     .responsivesmooth{
         overflow: hidden;
         opacity: 0;
@@ -1516,12 +1525,6 @@ footer .rights .social-media i{
             opacity: 1;
             transform: translateX(0%);
         }
-    }
-
-    .quality.scroll:first-child,
-    .quality.scroll:last-child,
-    .quality.scroll:nth-child(2){
-        animation: none;
     }
 
     .quality.responsivescroll:first-child {
