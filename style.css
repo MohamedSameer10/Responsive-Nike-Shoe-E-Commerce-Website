@@ -1506,7 +1506,7 @@ footer .rights .social-media i{
     .responsivesmooth{
         opacity: 0;
         scale: 0;
-        animation: responsivesmooth 1s ease-in-out forwards 2s;
+        animation: responsivesmooth 1s ease-in-out forwards 1s;
     }
 
     @keyframes responsivesmooth{
