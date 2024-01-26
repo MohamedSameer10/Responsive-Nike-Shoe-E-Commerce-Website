@@ -1507,7 +1507,7 @@ footer .rights .social-media i{
         overflow: hidden;
         opacity: 0;
         scale: 1;
-        transform: translateX(-30%);
+        transform: translateX(-50%);
         animation: responsivesmooth 3s ease-in-out forwards;
     }
 
@@ -1516,6 +1516,12 @@ footer .rights .social-media i{
             opacity: 1;
             transform: translateX(0%);
         }
+    }
+
+    .quality.scroll:first-child,
+    .quality.scroll:last-child,
+    .quality.scroll:nth-child(2){
+        animation: none;
     }
 
     .quality.responsivescroll:first-child {
