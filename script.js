@@ -54,11 +54,22 @@ searchBar.addEventListener("keyup",()=>{
 
 window.addEventListener("scroll",()=>{
     quality.forEach((element)=>{
-        element.classList.toggle("scroll",window.scrollY>1010)
-        element.classList.toggle("responsivescroll",window.scrollY>1600)
+        if(window.scrollY>1010){
+            element.classList.add('scroll')
+        }
+
+        if(window.scrollY>1600){
+            element.classList.add("responsivescroll")
+        }
+        
     })
-    season.classList.toggle("smooth",window.scrollY>1600)
-    season.classList.toggle("responsivesmooth",window.scrollY>3800)
+    if(window.scrollY>1600){
+        season.classList.add("smooth")
+    }
+
+    if(window.scrollY>3600){
+        season.classList.add("responsivesmooth")
+    }
 })
 
 
