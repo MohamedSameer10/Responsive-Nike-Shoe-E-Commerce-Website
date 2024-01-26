@@ -58,7 +58,7 @@ window.addEventListener("scroll",()=>{
         element.classList.toggle("responsivescroll",window.scrollY>1100)
     })
     season.classList.toggle("smooth",window.scrollY>1600)
-    season.classList.toggle("responsivesmooth",window.scrollY>1780)
+    season.classList.toggle("responsivesmooth",window.scrollY>1800)
 })
 
 
