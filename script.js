@@ -55,10 +55,10 @@ searchBar.addEventListener("keyup",()=>{
 window.addEventListener("scroll",()=>{
     quality.forEach((element)=>{
         element.classList.toggle("scroll",window.scrollY>1010)
-        element.classList.toggle("responsivescroll",window.scrollY>3600)
+        element.classList.toggle("responsivescroll",window.scrollY>3900)
     })
     season.classList.toggle("smooth",window.scrollY>1600)
-    season.classList.toggle("responsivesmooth",window.scrollY>3500)
+    season.classList.toggle("responsivesmooth",window.scrollY>3100)
 })
 
 
