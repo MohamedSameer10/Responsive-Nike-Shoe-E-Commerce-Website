@@ -58,7 +58,7 @@ window.addEventListener("scroll",()=>{
             element.classList.add('scroll')
         }
 
-        if(window.scrollY>1600){
+        if(window.scrollY>1500){
             element.classList.add("responsivescroll")
         }
         
