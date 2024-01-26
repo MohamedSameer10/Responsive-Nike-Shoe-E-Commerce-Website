@@ -1516,17 +1516,17 @@ footer .rights .social-media i{
         }
     }
 
-    .responsivescroll{
+    .quality.responsivescroll{
         opacity: 0;
         scale: 0;
         animation: responsivescroll 1s ease-in-out forwards 1s;
     }
 
-    .responsivescroll:nth-child(2){
+    .quality.responsivescroll:nth-child(2){
         animation-delay: 2s;
     }
 
-    .responsivescroll:nth-child(3){
+    .quality.responsivescroll:nth-child(3){
         animation-delay: 3s;
     }
 
