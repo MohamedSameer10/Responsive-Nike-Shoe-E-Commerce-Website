@@ -1525,13 +1525,13 @@ footer .rights .social-media i{
     .quality.responsivescroll:nth-child(2) {
         opacity: 0;
         scale: 0;
-        animation: scale 1s linear forwards 2s;
+        animation: scale 1s linear forwards 3s;
     }
     
     .quality.responsivescroll:last-child {
         opacity: 0;
         transform: translateX(50%);
-        animation: side 1s linear forwards 3s;
+        animation: side 1s linear forwards 4s;
     }
 }
 
