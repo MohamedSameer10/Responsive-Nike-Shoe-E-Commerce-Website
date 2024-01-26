@@ -1453,10 +1453,6 @@ footer .rights .social-media i{
         order: 3;
     }
 
-    .responsivesmooth{
-        animation: smooth 1s ease-in-out forwards 1s;
-    }
-
 }
 
 
@@ -1507,6 +1503,22 @@ footer .rights .social-media i{
         font-size: 1rem;
     }
 
+    .responsivesmooth{
+        opacity: 0;
+        scale: 0;
+        animation: responsivesmooth 1s ease-in-out forwards 1s;
+    }
+
+    @keyframes responsivesmooth{
+        to{
+            scale: 1;
+            opacity: 1;
+        }
+    }
+    
+    footer{
+        display: none;
+    }
 
 
 
