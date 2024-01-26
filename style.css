@@ -1517,7 +1517,7 @@ footer .rights .social-media i{
         opacity: 0;
         scale: 1;
         transform: translateX(-50%);
-        animation: responsivesmooth 3s ease-in-out forwards;
+        animation: responsivesmooth 2s ease-in-out forwards;
     }
 
     @keyframes responsivesmooth{
